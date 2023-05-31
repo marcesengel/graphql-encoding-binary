@@ -1,7 +1,8 @@
 import DataType from './dataType'
 
 const float: DataType<number> = {
-  size: 4,
+  staticSize: true,
+  size: 8,
   encode(value, view, offset) {
     view.setFloat64(offset, value)
   },

@@ -22,5 +22,6 @@ module.exports = {
         pathGroups: [{ pattern: 'src/**', group: 'internal' }],
       },
     ],
+    '@typescript-eslint/no-explicit-any': 'off',
   },
 }

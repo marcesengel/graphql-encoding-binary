@@ -8,6 +8,7 @@ const maxLength = 256 ** lengthBytes - 1
 const textEncoder = new TextEncoder()
 const textDecoder = new TextDecoder()
 const string: DataType<string, Uint8Array> = {
+  staticSize: false,
   size(value) {
     const uint8Array = textEncoder.encode(value)
     if (uint8Array.length > maxLength) {
