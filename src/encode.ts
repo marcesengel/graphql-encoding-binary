@@ -4,7 +4,7 @@ import { AnyDataType } from './dataTypes/dataType'
 import float from './dataTypes/floatDataType'
 import int from './dataTypes/intDataType'
 import string from './dataTypes/stringDataType'
-import { traverseNodeMap } from './traverseNodeMap.1'
+import { traverseNodeMap } from './traverseNodeMap'
 
 // to size strings we need to convert them to utf8
 // in order not to do this again to encode them, we use this cache
@@ -54,9 +54,4 @@ function getSize(
   })
 
   return size
-}
-
-const dataTypes = [int, float, string, boolean]
-export function isDataType(value: any): value is AnyDataType {
-  return dataTypes.includes(value)
 }

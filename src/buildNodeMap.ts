@@ -2,12 +2,12 @@ import {
   BREAK,
   DocumentNode,
   Kind,
+  ListTypeNode,
+  NamedTypeNode,
   OperationTypeNode,
   TypeDefinitionNode,
-  visit,
   TypeNode,
-  NamedTypeNode,
-  ListTypeNode,
+  visit,
 } from 'graphql/language'
 
 import boolean from './dataTypes/booleanDataType'
