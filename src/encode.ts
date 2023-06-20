@@ -1,9 +1,4 @@
 import { NodeMap } from './buildNodeMap'
-import boolean from './dataTypes/booleanDataType'
-import { AnyDataType } from './dataTypes/dataType'
-import float from './dataTypes/floatDataType'
-import int from './dataTypes/intDataType'
-import string from './dataTypes/stringDataType'
 import { traverseNodeMap } from './traverseNodeMap'
 
 // to size strings we need to convert them to utf8
