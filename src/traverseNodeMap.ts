@@ -1,9 +1,9 @@
 import { NodeMap } from './buildNodeMap'
-import { AnyDataType } from './dataTypes/dataType'
-import int from './dataTypes/intDataType'
-import float from './dataTypes/floatDataType'
-import string from './dataTypes/stringDataType'
 import boolean from './dataTypes/booleanDataType'
+import { AnyDataType } from './dataTypes/dataType'
+import float from './dataTypes/floatDataType'
+import int from './dataTypes/intDataType'
+import string from './dataTypes/stringDataType'
 
 interface NodeMapTraversalHandlers {
   onDataType: (
